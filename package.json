@@ -1,0 +1,35 @@
+{
+  "name": "@murasaki/dataset-importer",
+  "version": "0.0.0",
+  "description": "Dataset importer for Murasaki.",
+  "main": "dist/bundle.cjs",
+  "module": "dist/bundle.mjs",
+  "repository": "https://github.com/Temoto-kun/murasaki-dataset-importer.git",
+  "author": "TheoryOfNekomata <allan.crisostomo@outlook.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "xml-stream": "^0.4.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "fast-check": "^1.21.0",
+    "jest": "^25.1.0",
+    "rollup": "^1.30.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-terser": "^5.2.0"
+  },
+  "optionalDependencies": {
+    "xml-stream": "^0.4.5"
+  }
+}
