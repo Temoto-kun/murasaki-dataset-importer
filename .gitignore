@@ -63,3 +63,5 @@ typings/
 .yarn-integrity
 .env
 .next
+dist/
+
